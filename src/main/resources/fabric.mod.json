@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "system-client",
+  "version": "${version}",
+  "name": "System Client",
+  "description": "System Client for Minecraft 1.21.11",
+  "authors": ["mark"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.mark.system.core.ClientMain"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

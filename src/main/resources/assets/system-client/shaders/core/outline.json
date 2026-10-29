@@ -1,0 +1,17 @@
+{
+  "vertex": "system-client:core/outline",
+  "fragment": "system-client:core/outline",
+  "samplers": [],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "Size", "type": "float", "count": 2, "values": [ 0.0, 0.0 ] },
+    { "name": "Offset", "type": "float", "count": 2, "values": [ 0.0, 0.0 ] },
+    { "name": "CornerRadius", "type": "float", "count": 1, "values": [ 0.0 ] },
+    { "name": "BorderThickness", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "BorderSoftness", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "Margin", "type": "float", "count": 1, "values": [ 0.0 ] },
+    { "name": "GlobalAlpha", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "BorderColor", "type": "float", "count": 4, "values": [ 1.0, 1.0, 1.0, 1.0 ] }
+  ]
+}
